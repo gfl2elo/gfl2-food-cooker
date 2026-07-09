@@ -6,6 +6,8 @@ This uses the same practical approach as `gfl2elo/gfl2-attachment-calibrator`: c
 
 It's also vibe coded slop.
 
+click to fall asleep and cringe internally (guide): https://youtu.be/wnf3WPBb7Ow
+
 ## Setup
 
 ```powershell
