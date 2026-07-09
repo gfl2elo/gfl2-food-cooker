@@ -4,6 +4,8 @@ Small Windows-oriented click automation for the GFL2 experimental cooking flow.
 
 This uses the same practical approach as `gfl2elo/gfl2-attachment-calibrator`: collect screen coordinates by hovering, save them to JSON, then replay clicks with `pyautogui`. Coordinates are tied to the current game window position and resolution.
 
+It's also vibe coded slop.
+
 ## Setup
 
 ```powershell
@@ -48,6 +50,6 @@ The first value is how many cooking loops to run for that item. `0/max` is allow
 
 While running:
 
-- `F9` pauses/resumes
-- `F10` stops after the current action
-- Moving the mouse to a screen corner triggers PyAutoGUI's failsafe
+- `F9` pauses/resumes (sometimes)
+- `F10` stops after the current action (sometimes)
+- Moving the mouse to a screen corner triggers PyAutoGUI's failsafe (do not touch your PC)
