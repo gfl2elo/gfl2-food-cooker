@@ -55,3 +55,25 @@ While running:
 - `F9` pauses/resumes (sometimes)
 - `F10` stops after the current action (sometimes)
 - Moving the mouse to a screen corner triggers PyAutoGUI's failsafe (do not touch your PC)
+
+## Rerun after install
+
+If you want to rerun the program after you've used it for the first time and closed the command prompt do this:
+
+1. Go in the gfl2-food-cooker folder and type cmd in the top bar (or cd into the folder)
+2. Activate the venv
+
+```powershell
+.\.venv\Scripts\activate
+```
+
+3. Choose either calibrate 
+
+```powershell
+python food_cooker.py calibrate
+```
+4. Or run
+
+```powershell
+python food_cooker.py run
+```
